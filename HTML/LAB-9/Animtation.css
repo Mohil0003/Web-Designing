@@ -1,0 +1,57 @@
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    /* background-image: url('./..//..//gambhva_sir.jpg');
+     */
+     background-image: url('../../gambhva_sir.jpg');
+    background-size: cover;
+    animation-name: sir;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 6.5in;
+    top: 2.8in;
+
+}
+
+@keyframes sir {
+    /* 0%{
+        margin-top: 5%;
+        margin-left: 25%;
+        
+        transform: rotateY(360deg);
+    }
+    25%{
+        margin-top: 5%;
+        margin-left: 75%;
+        transform: rotateX(360deg);
+        
+        
+    }
+    50%{
+        margin-top: 30%;
+        margin-left: 75%;
+        transform: rotateZ(360deg);
+    }
+    75%{
+    
+        margin-top: 30%;
+        margin-left: 25%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-top: 5%;
+        margin-left: 25%;
+        transform: rotate(360deg);
+    }
+
+} */
+    0%{
+        transform: rotate(0deg) translate(500px);
+    }
+    100%{
+        transform: rotate(360deg) translate(10px);
+    }
+}

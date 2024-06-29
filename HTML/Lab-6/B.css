@@ -1,0 +1,191 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* reset web-page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* main container */
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+/* header data */
+.container .header {
+  height: 10%;
+  width: 100%;
+}
+
+.container .header .logo {
+  height: 100%;
+  width: 10%;
+  float: left;
+  padding: 2px;
+}
+
+.container .header .logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.container .header .menus {
+  width: 90%;
+  height: 100%;
+  padding: 25px;
+  word-spacing: 20px;
+  text-align: end;
+  padding-right: 20%;
+  font-size: 20px;
+  float: left;
+}
+
+.container .header .menus a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+/* main content */
+.container .mainContent {
+  height: 80%;
+  width: 100%;
+  border: 1px dotted #111;
+}
+
+/* sidebar data */
+.container .mainContent .sidebar {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.container .mainContent .sidebar .d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6,
+.d7,
+.d8,
+.d9,
+.d10 {
+  background-color: #ff0000;
+  border: 1px solid #ffff00;
+  font-size: 21px;
+  text-align: center;
+}
+
+.container .mainContent .sidebar .d2,
+.d4,
+.d6,
+.d8,
+.d10 {
+  padding: 32px;
+}
+
+.container .mainContent .sidebar .d3,
+.d5,
+.d7,
+.d9,
+.d11 {
+  padding: 5px;
+}
+
+.container .mainContent .sidebar .d11 {
+  padding: 25px;
+}
+
+/* right sidebar data */
+.container .mainContent .main {
+  height: 100%;
+  width: 80%;
+  float: left;
+}
+
+.container .mainContent .main {
+  height: 100%;
+  width: 80%;
+}
+
+.container .mainContent .main .top {
+  height: 25%;
+  width: 100%;
+}
+
+.container .mainContent .main .top .t1,
+.t2 {
+  height: 20%;
+  width: 10%;
+  float: left;
+  margin-left: 10px;
+}
+
+.container .mainContent .main .top .t1 img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+.container .mainContent .main .top .t2 img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+.container .mainContent .main .bottom {
+  height: 50%;
+  width: 100%;
+}
+
+.container .mainContent .main .bottom .b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+  height: 20%;
+  width: 10%;
+  float: left;
+  margin-left: 10px;
+}
+
+.container .mainContent .main .bottom .b1 img,
+.b2 img,
+.b3 img,
+.b4 img,
+.b5 img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+/* footer data */
+.container .footer {
+  height: 10%;
+  width: 100%;
+  background-color: #0000ff;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container .footer p {
+  font-size: 25px;
+}
+
+
+@media (max-width: 500px)
+{
+  .logo{
+    width: 100%;
+  }
+  .menus{
+    width: 100%;
+  }
+  .mainContent{
+    width: 100%;
+  }
+}

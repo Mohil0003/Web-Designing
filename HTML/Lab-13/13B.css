@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: inline-block;
+}
+.header{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.guitar{
+    color: white;
+    height: 100px;
+    width: 40px;
+    font-size: 60px;
+    position: absolute;
+}
+.sound{
+    font-family: cursive;
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 40px;
+    position: absolute;
+    margin-left: 15px;
+}
+.b1,.b2{
+    display: inline-block;
+    margin-left: 300px;
+    color: white;
+    
+}
+.sel1{
+    display: inline;
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    background: transparent;
+    color: white;
+    background-color: black;
+    margin-left: 450px;
+}
+.sel2{
+    display: inline;
+    margin-left: px;
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    background: transparent;
+    color: white;
+    background-color: black;
+    margin-left: 300px;
+}
+.button{
+    text-transform: uppercase;
+    background-color: rgb(4, 151, 224);
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font: bolder;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 13px;
+}
+.content{
+    height: 1050px;
+    width: 100%;
+    background-color: rgb(61, 58, 58);
+}
+.symbols{
+    margin-top: 17px;
+    margin-left: 650px;
+    display: inline-block;
+}
+.sym1,.sym2,.sym3,.sym4,.sym5,.sym6,.sym7{
+    color: rgb(4, 151, 224);
+    font-size: x-large;
+    margin-left: 5px;
+}
+.allevent{
+    margin-top: 40px;
+    margin-left: 140px;
+    box-shadow: 10px 10px rgba(0,0,0, 0.5);
+}
+.mainbox{
+    margin-top: 150px;
+    margin-left: 140px;
+}
+.box1,.box2,.box3,.box4{
+    width: 280px;
+    background-color: white;
+    height: 550px;
+    margin-left: 14px;
+}
+.write1,.write2,.write3,.write4{
+    padding-left: 20px;  
+}
+.bold{
+    
+    font-style: bold;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bold;
+}
+.seebutton{
+    background-color: rgb(4, 151, 224);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 6px 6px 6px;
+    margin-left: 70px;
+    margin-top: 10px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Created by Mohil</title>
+    <style>
+        div{
+            height: 200px;
+            width: 500px;
+            align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Employee Registration</h1>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Persomal Information</legend>
+                    <table align="center">
+                        <tr>
+                            <td>Employee ID</td>
+                            <td>:</td>
+                            <td><input type="text" placeholder="Enter Employee Id"></td>
+                        </tr>
+                        <tr>
+                            <td>Employee Name</td>
+                            <td>:</td>
+                            <td><input type="text" placeholder="Enter Employee Name"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td>:</td>
+                            <td><input type="email" placeholder="Enter Email"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Contact No</label></td>
+                            <td>:</td>
+                            <td><input type="text" pattern="[0-9]{10}" placeholder="Enter Contact No."></td>
+                        </tr>
+                        <tr>
+                            <td><label>Marital Status</label></td>
+                            <td>:</td>
+                            <td><label>Married</label><input type="radio" name="ok"><label>Single</label><input type="radio" name="ok"></td>
+                        </tr>
+                    </table>
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Education / Experience</legend>
+                    <table align="center">
+                        <tr>
+                            <td>Education</td>
+                            <td>:</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                            <td>Experience</td>
+                            <td>:</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                    </table>
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Job Details</legend>
+                    <table align="center">
+                        <tr>
+                            <td>Designation</td>
+                            <td>:</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Job Location</td>
+                            <td>:</td>
+                            <td>
+                                <select>
+                                    <option>Rajkot</option>
+                                    <option>Ahemdabad</option>
+                                    <option>Surat</option>
+                                    <option>Vadodara</option>
+                                    <option>Gandhinagar</option>
+                                    <option>Morbi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Salary
+                            </td>
+                            <td>:</td>
+                            <td><input type="text" pattern="[0-9]"></td>
+                        </tr>
+                    </table>
+            </fieldset>
+        </form>
+    </div>
+
+        <form>
+            <table align="center">
+                <tr>
+                    <td align="end"><input type="submit" value="Submit"></td>
+                    <td align="start"><input type="reset" value="Cancel"></td>
+                </tr>
+            </table>
+        </form>
+
+    
+</body>
+</html>
